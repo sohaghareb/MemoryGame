@@ -245,6 +245,10 @@ h1 {
     display:none;
   }
   
+  /* correct sign css
+  https://codepen.io/istiaktridip/pen/BZqaOd
+   */
+   
   .sa-icon {
     width: 80px;
     height: 80px;
