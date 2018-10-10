@@ -72,7 +72,7 @@ h1 {
     cursor: default;
 }
 
-.deck .card.flib{
+.deck .card.flib {
     transform: rotateY(360deg);
     transition: 0.1s ;
 }
@@ -87,7 +87,7 @@ h1 {
     font-size: 33px;
 }
 
-@keyframes scaleOne{
+@keyframes scaleOne {
     25% {
         transform:scale(0.8);
     }
@@ -105,7 +105,7 @@ h1 {
     }
 }
 
-@keyframes scaleTwo{
+@keyframes scaleTwo {
     50% {
         transform:sclae(0.8);
     }
@@ -180,15 +180,15 @@ h1 {
     margin-top: 10%;   
 }
 
-.fadeout{
+.fadeout {
     animation: fadeOut-animation 0.5s;
 }
 
-.fadein{
+.fadein {
     animation: fadeIn-animation 0.5s;
 }
 
-@keyframes fadeIn-animation{
+@keyframes fadeIn-animation {
     30% {
         opacity: 0.4;
     }
@@ -202,7 +202,7 @@ h1 {
     }
 }
 
-@keyframes fadeOut-animation{
+@keyframes fadeOut-animation {
     30% {
         opacity: 0.8;
     }
@@ -216,11 +216,11 @@ h1 {
     }
 }
 
-.score-container h5{
+.score-container h5 {
     color:grey;
 }
 
-.mybutton{
+.mybutton {
     background-color: #02ccba;
     color: #ffffff;
     margin-top: 20px;
@@ -241,7 +241,7 @@ h1 {
     margin-left: 15px;
   }
   
-  .hide{
+  .hide {
     display:none;
   }
   

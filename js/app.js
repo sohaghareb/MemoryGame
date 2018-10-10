@@ -116,7 +116,9 @@ function shuffle(array) {
 
 function youWin(){ 
     document.querySelector('.container').style.display='none';
-    document.querySelector('.score').style.display='block'; 
+    let score_block=document.querySelector('.score'); 
+    score_block.style.display='block';
+    score_block.style.opacity=1;
     document.querySelector('h5').textContent='With '+moves+" Moves and "+(stars+1)+" Stars.";   
 }
 
