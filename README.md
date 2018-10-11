@@ -1,5 +1,5 @@
 # Memory Game Project
-
+The Memory Game Project is all about demonstrating my skills of JavaScript. I built a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
 ## Table of Contents
 
 * [How To Play](#how_to_play)
