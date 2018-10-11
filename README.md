@@ -21,7 +21,7 @@ You will only need your browser and good internet connection.
 * If the cards do not match, both cards are flipped face down.
 * The player wins if he can match all the cards.
 
-### A correct guess
+### Correct guess
 ![Screenshot](img/correct.PNG)
 
 ### Incorrect guess
