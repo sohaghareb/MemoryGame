@@ -8,6 +8,7 @@ let moves=0;
 let children="";
 let stars=2;
 let htmlList=document.querySelector('.deck');
+let seonds=0;
 
 function init(){
 
@@ -30,6 +31,7 @@ function init(){
     moves=0;
     children="";
     stars=2;
+    seconds=0;
     //update moves and stars
     document.querySelector('.moves').innerText=moves;
     let stars_logo = document.querySelector('.stars');
@@ -37,6 +39,8 @@ function init(){
     li_list.forEach(function(i){
         i.className="fa fa-star";
     });
+    //start the timer
+    timer();
 }
 /**Start of Events **/
 htmlList.onclick= function(event){
@@ -87,6 +91,16 @@ document.querySelector('.mybutton').onclick=function(){
         }, 501);
     },501);
 }
+
+function timer(){
+    ++seconds;
+    let timer_html=document.querySelector('h5[name]');
+    timer_html.innerText='Time: '+seconds+' seconds';
+    setTimeout(() => {
+        timer();
+    }, 1000);
+
+}
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
@@ -113,7 +127,7 @@ function youWin(){
     let score_block=document.querySelector('.score'); 
     score_block.style.display='block';
     score_block.style.opacity=1;
-    document.querySelector('h5').textContent='With '+moves+" Moves and "+(stars+1)+" Stars.";   
+    document.querySelectorAll('h5')[1].textContent='With '+moves+" Moves and "+(stars+1)+" Stars in "+seconds+' Seconds';   
 }
 
 function match(x, y){
@@ -155,7 +169,7 @@ function showCard(target){
 function incrementMoves(){
     moves++;
     document.querySelector('.moves').innerText=moves;
-    if(moves%9 == 0 && stars >= 0){
+    if(moves%13 == 0 && stars >= 1){
         document.querySelectorAll('.fa-star')[stars].className='fa fa-star-o';
         --stars;
     }
