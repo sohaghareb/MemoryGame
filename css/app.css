@@ -217,8 +217,11 @@ h1 {
 }
 
 .score-container h5 {
-    color:grey;
-    font-size: 15px;
+  color:grey;
+}
+
+h5 {
+  font-size: 16px;
 }
 
 .mybutton {
@@ -246,10 +249,34 @@ h1 {
     display:none;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     h5 {
-      font-size: 20px;
+      font-size: 30px;
     }
+
+    .score-panel {
+      font-size: 30px;
+    }
+
+    .deck .card{
+      width: 134px;
+      height: 134px;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+  h5 {
+    font-size: 25px;
+  }
+
+  .score-panel {
+    font-size: 25px;
+  }
+
+  .deck .card {
+    width: 130px;
+    height: 130px;
+  }
 }
   
   /* correct sign css
