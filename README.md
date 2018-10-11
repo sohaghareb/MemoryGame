@@ -15,10 +15,17 @@ You will only need your browser and good internet connection.
 * [Contributing](#contributing)
 
 ## How To Play
-1. When you open the game a 4*4 grid will open
-1. Click to match 2 cells at a time 
-1. If you have a match, the 2 cells will still open and if not they will flip.
-1. If you managed to match all the cells, you win and you will be able to see the number of moves you made and the time you took. 
+* The player flips one card over to reveal its underlying symbol.
+* The player then turns over a second card, trying to find the corresponding card with the same symbol.
+* If the cards match, both cards stay flipped over.
+* If the cards do not match, both cards are flipped face down.
+* The player wins if he can match all the cards.
+
+A correct guess
+![Screenshot](correct.png)
+
+Incorrect guess
+![Screenshot](incorrect.png)
 
 ## Instructions
 
