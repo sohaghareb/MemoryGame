@@ -4,7 +4,7 @@ The Memory Game Project is all about demonstrating my skills of JavaScript. I bu
 ## Getting Started
 Downloading the zip file or clone via Github
 
-### Prerequisites
+## Prerequisites
 You will only need your browser and good internet connection.
 
 #### Table of Contents
