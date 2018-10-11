@@ -22,10 +22,10 @@ You will only need your browser and good internet connection.
 * The player wins if he can match all the cards.
 
 A correct guess
-![Screenshot](img/correct.png)
+![Screenshot](img/correct.PNG)
 
 Incorrect guess
-![Screenshot](img/incorrect.png)
+![Screenshot](img/incorrect.PNG)
 
 ## Instructions
 
