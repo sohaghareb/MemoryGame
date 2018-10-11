@@ -7,7 +7,7 @@
 * [Dependencies](#dependencies)
 * [Contributing](#contributing)
 
-##How_To_Play
+##how_to_play
 1. When you open the game a 4*4 grid will open
 1. Click to match 2 cells at a time 
 1. If you have a match, the 2 cells will still open and if not they will flip.
